@@ -1,5 +1,6 @@
 <?php
     include "database/function.php";
+    createRow();
 ?>
 
 <!DOCTYPE html>

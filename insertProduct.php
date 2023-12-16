@@ -12,6 +12,8 @@
         include "includes/header.php";
     ?>
     <div class="container" style= "width:50%; margin:auto;">
+        <form action="index.php" method="post">
+            <h1>INSERT PRODUCT</h1>
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">ID</label>
                 <input type="text" class="form-control" name="ID" id="ID" placeholder="H23203">
@@ -36,7 +38,7 @@
                 <input class="btn btn-primary" type="submit" value="Insert" name="insert">
                 <input class="btn btn-primary" type="reset" value="Reset">
             </div>
-
+        </form>
     </div>
 </body>
 </html>
